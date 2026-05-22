@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 25vh;
+}
+
+.header_top-bar {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F4F7;
+}
+
+.location {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.center-text p {
+    color: #8B8E99;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+.header_top-bar2 {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.btn_search button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    color: #7000FF;
+    background-color: #F0F0FF;
+    cursor: pointer;
+}
+
+.btn_search button:hover {
+    background-color: hwb(240 66% 0%);
+}
+
+.btn_search input {
+    width: 400px;
+    height: 45px;
+    border: 1px solid #36364033;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.header_top-bar3 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.header_top-bar3 nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header_top-bar3 nav ul li a {
+    text-decoration: none;
+    color: #595B66;
+}
+
+.header_top-bar3 nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* section hero-banner-image qismi */
+section.hero-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-banner img {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 87%;
+}
+
+
+/* sectin categories qismi */
+section.categories{
+    width: 100%;
+    height: 15vh;
+}
+
+.categories-list {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.categories-box {
+    width: 290px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #faf0de;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+
+.categories-box img {
+    width: 50px;
+}
